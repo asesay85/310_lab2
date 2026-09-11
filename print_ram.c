@@ -2,6 +2,7 @@
 extern unsigned char ram[]; // RAM declared in assembly
 extern void fill_ram(void);
 int main()
+
 {fill_ram();
     printf("Ram contents from 50H to 58H:\n");
 
